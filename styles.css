@@ -1,20 +1,15 @@
 
-/* Your CSS Code here. */
-table{
-	      border: 1px solid black;
-              padding: 8px;
-      text-align: center;
-	  margin: auto
-}
- th, td {
-      border: 1px solid black;
-      /* border-collapse: collapse; */
-      padding: 20px;
-      text-align: center;
-	  margin: auto;
-    }
-    .black-cell {
-      background-color: black;
-      color: white;
-      font-weight: bold;
-    }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        .black-cell {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
